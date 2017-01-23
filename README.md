@@ -12,7 +12,7 @@ TODO: Write usage instructions
 
 ## Running the tests
 
-nTODO: Explain how to run the automated tests
+TODO: Explain how to run the automated tests
 
 ## Built With
 
