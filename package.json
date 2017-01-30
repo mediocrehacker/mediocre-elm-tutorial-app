@@ -1,0 +1,9 @@
+{
+  "name": "mediocre-elm-tutorial-app",
+  "version": "0.0.1",
+  "description": "A mediocre example Elm single page application",
+  "main": "index.js",
+  "repository": "git@github.com:mediocrehacker/mediocre-elm-tutorial-app.git",
+  "author": "mediocreHacker <mediocreHacker@protonmail.com>",
+  "license": "GNU GPLv3"
+}
