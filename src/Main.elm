@@ -1,6 +1,8 @@
 module Main exposing (..)
 
 import Html exposing (Html, program, div)
+import Material
+import Material.Layout as Layout
 
 
 -- Model
@@ -38,7 +40,14 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div [] []
+    Layout.render Mdl
+        model.mdl
+        [ Layout.fixedHeader ]
+        { header = []
+        , drawer = []
+        , tabs = ( [], [] )
+        , main = []
+        }
 
 
 main : Program Never Model Msg
